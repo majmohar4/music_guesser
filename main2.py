@@ -5,7 +5,7 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import requests
 from datetime import datetime, timedelta
-import asyncio
+import asyncio, os
 from dotenv import load_dotenv
 load_dotenv()
 
